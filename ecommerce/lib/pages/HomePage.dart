@@ -1,6 +1,5 @@
-import 'package:ecommerce/widgets/BodyHome.dart';
 import 'package:ecommerce/widgets/BottomNavBar.dart';
-import 'package:ecommerce/widgets/CategoriasHotSales.dart';
+import 'package:ecommerce/widgets/TodosProdutoView.dart';
 import 'package:flutter/material.dart';
 // import '../widgets/BannerCard.dart';
 
@@ -67,7 +66,7 @@ class HomePageState extends State {
           ],
         ),
       ),
-      body: const CategoriasHotSales(),
+      body: const TodosProdutoView(),
       bottomNavigationBar: const BottomNavBar(),
     );
   }

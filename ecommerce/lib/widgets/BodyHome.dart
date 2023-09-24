@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'CategoriasListView.dart';
 import 'BannerCard.dart';
-import 'package:ecommerce/widgets/CategoriasHotSales.dart';
+import 'package:ecommerce/widgets/TodosProdutoView.dart';
 
 class BodyHome extends StatefulWidget {
   const BodyHome({super.key});
@@ -24,7 +24,7 @@ class BodyHomeView extends State {
         ),
          Padding(
           padding: EdgeInsets.only(top: 5),
-          child: CategoriasHotSales(),
+          child: TodosProdutoView(),
         ),
       ],
     );
