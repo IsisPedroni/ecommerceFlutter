@@ -1,6 +1,8 @@
+import 'package:ecommerce/widgets/BodyHome.dart';
 import 'package:ecommerce/widgets/BottomNavBar.dart';
+import 'package:ecommerce/widgets/CategoriasHotSales.dart';
 import 'package:flutter/material.dart';
-import '../widgets/BannerCard.dart';
+// import '../widgets/BannerCard.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -16,18 +18,23 @@ class HomePageState extends State {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.white,
+        elevation: 0,
+        toolbarHeight: 70,
+        
+        backgroundColor: const Color(0xFFF7F6F4),
         title: Row(
           children: [
             Expanded(
               // flex: 1, // Define a proporção do espaço ocupada pelo TextField
               child: Padding(
-                padding: const EdgeInsets.only(right: 8),
+                padding: const EdgeInsets.only(right: 8,),
                 child: TextField(
                   decoration: InputDecoration(
                     hintText: 'Search products',
+                    hintStyle: const TextStyle(color: Color(0xFFCFCFCF),
+                    fontSize: 12),
                     filled: true,
-                    fillColor: const Color(0xFFE5E5E5),
+                    fillColor: Colors.white,
                     contentPadding: const EdgeInsets.symmetric(horizontal: 10),
                     border: OutlineInputBorder(
                       borderRadius:
@@ -36,7 +43,7 @@ class HomePageState extends State {
                     ),
                     prefixIcon: const Icon(
                       Icons.search,
-                      color: Color.fromARGB(255, 68, 66, 66),
+                      color: Color(0xFFCFCFCF),
                     ),
                   ),
                 ),
@@ -47,23 +54,21 @@ class HomePageState extends State {
               height: 50, // Altura do contêiner
               decoration: const BoxDecoration(
                 shape: BoxShape.circle, // Forma circular
-                color: Color(0xFFE5E5E5), // Cor do fundo cinza
+                color: Colors.white, // Cor do fundo cinza
               ),
               child: IconButton(
-              onPressed: () {},
-              icon: const Icon(
-                Icons.view_list,
-                color: Color.fromARGB(255, 68, 66, 66),
+                onPressed: () {},
+                icon: const Icon(
+                  Icons.notifications,
+                  color: Color(0xFFCFCFCF),
+                ),
               ),
-            ),
             ),
           ],
         ),
       ),
-      body: const BannerCard(),
+      body: const CategoriasHotSales(),
       bottomNavigationBar: const BottomNavBar(),
     );
   }
 }
-
-
