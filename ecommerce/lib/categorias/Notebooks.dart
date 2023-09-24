@@ -1,5 +1,5 @@
 
-import 'package:ecommerce/Produtos.dart';
+import 'package:ecommerce/widgets/Produtos.dart';
 
 List<Produto> notebooks = [
   Produto(
@@ -7,6 +7,7 @@ List<Produto> notebooks = [
     preco: 1000.00,
     descricao: "Celular Samsung Galaxy S23",
     imagem: "assets/images/notebook.png",
+    
   ),
   Produto(
     nome: "Macbook Air M1",

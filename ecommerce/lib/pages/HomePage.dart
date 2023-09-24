@@ -19,8 +19,7 @@ class HomePageState extends State {
       appBar: AppBar(
         elevation: 0,
         toolbarHeight: 70,
-        
-        backgroundColor: const Color(0xFFF7F6F4),
+        // backgroundColor: const Color(0xFFF7F6F4),
         title: Row(
           children: [
             Expanded(
@@ -52,8 +51,8 @@ class HomePageState extends State {
               width: 50, // Largura do contêiner
               height: 50, // Altura do contêiner
               decoration: const BoxDecoration(
-                shape: BoxShape.circle, // Forma circular
-                color: Colors.white, // Cor do fundo cinza
+                shape: BoxShape.circle, 
+                color: Colors.white, 
               ),
               child: IconButton(
                 onPressed: () {},
