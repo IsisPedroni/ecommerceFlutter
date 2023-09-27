@@ -19,12 +19,12 @@ class TodosProduto extends State {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-         Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 4),
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 8),
           child: Text(
             'Recently viewed',
             style: GoogleFonts.inter(
-              fontSize: 14,
+              fontSize: 16,
               fontWeight: FontWeight.bold,
             ),
           ),
@@ -44,7 +44,7 @@ class TodosProduto extends State {
                     borderRadius: BorderRadius.circular(12),
                   ),
                   margin:
-                      const EdgeInsets.symmetric(horizontal: 15, vertical: 12),
+                      const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
                   color: const Color(0xFFCFCFCF),
                   child: Container(
                     padding: const EdgeInsets.all(15),
@@ -64,8 +64,7 @@ class TodosProduto extends State {
                               style: GoogleFonts.inter(
                                 fontWeight: FontWeight.normal,
                                 color: const Color(0xFF343A40),
-                                fontSize: 12,
-                             
+                                fontSize: 10,
                               ),
                             ),
                           ],
@@ -79,7 +78,7 @@ class TodosProduto extends State {
                               style: GoogleFonts.inter(
                                 fontWeight: FontWeight.bold,
                                 color: const Color(0xFF343A40),
-                                fontSize: 11.5,
+                                fontSize: 12,
                               ),
                             ),
                           ],
