@@ -1,6 +1,7 @@
 import 'package:ecommerce/widgets/BannerCard.dart';
 import 'package:ecommerce/widgets/BottomNavBar.dart';
 import 'package:ecommerce/widgets/CategoriasListView.dart';
+import 'package:ecommerce/widgets/HotSales.dart';
 import 'package:ecommerce/widgets/TodosProdutoView.dart';
 import 'package:flutter/material.dart';
 // import '../widgets/BannerCard.dart';
@@ -72,7 +73,10 @@ class HomePageState extends State {
           children: [
             BannerCard(),
             CategoriasListView(),
-            Expanded(child: TodosProdutoView())
+            SizedBox(height: 22,),
+            HotSales(),
+            Expanded(child: TodosProdutoView()),
+        
           ],
         ),
       ),

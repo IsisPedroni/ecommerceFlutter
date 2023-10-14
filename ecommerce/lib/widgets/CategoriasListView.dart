@@ -39,6 +39,7 @@ class CategoriaListView extends State {
                       color: const Color(0xFFCFCFCF),
                     ),
                     color: Colors.white,
+                    
                   ),
                   child: Align(
                     alignment: Alignment.center,

@@ -45,7 +45,7 @@ class TodosProduto extends State {
                   ),
                   margin:
                       const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
-                  color: const Color(0xFFCFCFCF),
+                  color: const Color(0xFFEFEEED),
                   child: Container(
                     padding: const EdgeInsets.all(15),
                     child: Column(
