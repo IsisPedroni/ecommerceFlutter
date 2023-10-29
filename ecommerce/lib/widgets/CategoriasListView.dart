@@ -11,9 +11,9 @@ class CategoriasListView extends StatefulWidget {
 
 class CategoriaListView extends State {
   final List<String> categorias = [
-    'Tecnologia',
-    'Smartphone',
-    'Eletronicos',
+    'Technology',
+    'Fashion',
+    'Sports',
     'Smartphone',
   ];
 
