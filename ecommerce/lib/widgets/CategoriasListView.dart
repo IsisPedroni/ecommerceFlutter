@@ -10,10 +10,11 @@ class CategoriasListView extends StatefulWidget {
 }
 
 class CategoriaListView extends State {
+
   final List<String> categorias = [
     'Technology',
-    'Fashion',
-    'Sports',
+    'Notebooks',
+    'Headphones',
     'Smartphone',
   ];
 
@@ -27,7 +28,6 @@ class CategoriaListView extends State {
         itemBuilder: (context, index) {
           final categoria = categorias[index];
           return Padding(
-            // REVER
             padding: const EdgeInsets.only(left: 15),
             child: InkWell(
               onTap: () {},

@@ -1,6 +1,7 @@
 import 'package:ecommerce/categorias/Notebooks.dart';
-import 'package:ecommerce/categorias/Smartphones.dart';
-import 'package:ecommerce/categorias/Televisoes.dart';
+import 'package:ecommerce/categorias/Tecnologia.dart';
+import 'package:ecommerce/categorias/Headphones.dart';
+
 
 class Produto {
   String nome;
@@ -16,4 +17,4 @@ class Produto {
 }
 
 
-List<Produto> todosProdutos = [...televisoes, ...smartphones, ...notebooks];
+List<Produto> todosProdutos = [...headphones, ...tecnologia, ...notebooks];

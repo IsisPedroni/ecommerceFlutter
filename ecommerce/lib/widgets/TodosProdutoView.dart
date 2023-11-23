@@ -1,4 +1,4 @@
-import 'package:ecommerce/widgets/Produtos.dart';
+import 'package:ecommerce/model/Produtos.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 

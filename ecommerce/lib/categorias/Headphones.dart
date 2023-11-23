@@ -1,6 +1,6 @@
-import 'package:ecommerce/widgets/Produtos.dart';
+import 'package:ecommerce/model/Produtos.dart';
 
-List<Produto> televisoes = [
+List<Produto> headphones = [
   Produto(
     nome: "Sony WH/1000XM4",
     preco: 1000.00,

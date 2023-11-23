@@ -1,5 +1,5 @@
-import 'package:ecommerce/categorias/Notebooks.dart';
-import 'package:ecommerce/widgets/Produtos.dart';
+import 'package:ecommerce/categorias/HotSalesList.dart';
+import 'package:ecommerce/model/Produtos.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -13,7 +13,7 @@ class HotSales extends StatefulWidget {
 }
 
 class HotSalesListView extends State {
-  List<Produto> produtos = notebooks;
+  List<Produto> produtos = hotSales;
 
   @override
   Widget build(BuildContext context) {

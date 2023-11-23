@@ -1,7 +1,7 @@
-import 'package:ecommerce/widgets/Produtos.dart';
+import 'package:ecommerce/model/Produtos.dart';
 
 
-List<Produto> smartphones = [
+List<Produto> tecnologia = [
   Produto(
     nome: "FreeBuds Huawei",
     preco: 1000.00,
